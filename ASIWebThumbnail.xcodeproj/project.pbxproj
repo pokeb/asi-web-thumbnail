@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F770486A8DE00D96B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
+		B5068E260EEBE71A000F351A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5068E250EEBE71A000F351A /* Cocoa.framework */; };
+		B5068E350EEBE740000F351A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5068E340EEBE740000F351A /* WebKit.framework */; };
+		B5068EF30EEBEDD0000F351A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5068EF20EEBEDD0000F351A /* AppKit.framework */; };
+		B50690640EEC04FA000F351A /* ASIWebPageThumbnailGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B50690630EEC04FA000F351A /* ASIWebPageThumbnailGenerator.m */; };
+		B50690820EEC0839000F351A /* ASIWebThumbnailGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B50690810EEC0839000F351A /* ASIWebThumbnailGenerator.m */; };
+		B50690880EEC09D3000F351A /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50690870EEC09D3000F351A /* AppController.m */; };
+		B506908A0EEC0A3B000F351A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50690890EEC0A3B000F351A /* MainMenu.xib */; };
+		B50690C20EEC0AAE000F351A /* test-app-main.m in Sources */ = {isa = PBXBuildFile; fileRef = B50690C10EEC0AAE000F351A /* test-app-main.m */; };
+		B5C8952D0EEFE22C001CE72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; };
+		B5C8952E0EEFE234001CE72D /* ASIWebPageThumbnailGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B50690630EEC04FA000F351A /* ASIWebPageThumbnailGenerator.m */; };
+		B5C8953B0EEFE279001CE72D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5068E340EEBE740000F351A /* WebKit.framework */; };
+		B5C8953D0EEFE282001CE72D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C8953C0EEFE282001CE72D /* CoreFoundation.framework */; };
+		B5C895950EEFE311001CE72D /* BundledThumbnailGenerator.app in Resources */ = {isa = PBXBuildFile; fileRef = B5C895250EEFE1F9001CE72D /* BundledThumbnailGenerator.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		8DD76F7E0486A8DE00D96B5E /* webthumbnail */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = webthumbnail; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5068E250EEBE71A000F351A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B5068E340EEBE740000F351A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B5068EF20EEBEDD0000F351A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B50690620EEC04FA000F351A /* ASIWebPageThumbnailGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIWebPageThumbnailGenerator.h; sourceTree = "<group>"; };
+		B50690630EEC04FA000F351A /* ASIWebPageThumbnailGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIWebPageThumbnailGenerator.m; sourceTree = "<group>"; };
+		B50690780EEC0803000F351A /* Test Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B506907A0EEC0803000F351A /* Test Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Application-Info.plist"; sourceTree = "<group>"; };
+		B50690800EEC0839000F351A /* ASIWebThumbnailGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIWebThumbnailGenerator.h; sourceTree = "<group>"; };
+		B50690810EEC0839000F351A /* ASIWebThumbnailGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIWebThumbnailGenerator.m; sourceTree = "<group>"; };
+		B50690860EEC09D3000F351A /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		B50690870EEC09D3000F351A /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		B50690890EEC0A3B000F351A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		B50690C10EEC0AAE000F351A /* test-app-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-app-main.m"; sourceTree = "<group>"; };
+		B50692450EEC1EF4000F351A /* webthumbnail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = webthumbnail.plist; sourceTree = "<group>"; };
+		B52DE06C0EEC3FE700586E27 /* GenerateThumbnail.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = GenerateThumbnail.app; sourceTree = "<group>"; };
+		B5C895250EEFE1F9001CE72D /* BundledThumbnailGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BundledThumbnailGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C895270EEFE1F9001CE72D /* BundledThumbnailGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BundledThumbnailGenerator-Info.plist"; sourceTree = "<group>"; };
+		B5C8953C0EEFE282001CE72D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F780486A8DE00D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5068E260EEBE71A000F351A /* Cocoa.framework in Frameworks */,
+				B5068E350EEBE740000F351A /* WebKit.framework in Frameworks */,
+				B5068EF30EEBEDD0000F351A /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50690760EEC0803000F351A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C895230EEFE1F9001CE72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C8953B0EEFE279001CE72D /* WebKit.framework in Frameworks */,
+				B5C8953D0EEFE282001CE72D /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* MakeThumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				B52DE06C0EEC3FE700586E27 /* GenerateThumbnail.app */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				19C28FBDFE9D53C911CA2CBB /* Products */,
+				B5068E250EEBE71A000F351A /* Cocoa.framework */,
+				B5068E340EEBE740000F351A /* WebKit.framework */,
+				B5068EF20EEBEDD0000F351A /* AppKit.framework */,
+				B50690890EEC0A3B000F351A /* MainMenu.xib */,
+				B50692450EEC1EF4000F351A /* webthumbnail.plist */,
+				B506907A0EEC0803000F351A /* Test Application-Info.plist */,
+				B5C895270EEFE1F9001CE72D /* BundledThumbnailGenerator-Info.plist */,
+				B5C8953C0EEFE282001CE72D /* CoreFoundation.framework */,
+			);
+			name = MakeThumbnail;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B506919A0EEC1613000F351A /* Command Line Tool */,
+				B5C8951E0EEFE14D001CE72D /* CocoaThumbnailGenerator */,
+				B50691990EEC15F8000F351A /* Sample Application */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		19C28FBDFE9D53C911CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F7E0486A8DE00D96B5E /* webthumbnail */,
+				B50690780EEC0803000F351A /* Test Application.app */,
+				B5C895250EEFE1F9001CE72D /* BundledThumbnailGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50691990EEC15F8000F351A /* Sample Application */ = {
+			isa = PBXGroup;
+			children = (
+				B50690860EEC09D3000F351A /* AppController.h */,
+				B50690870EEC09D3000F351A /* AppController.m */,
+				B50690C10EEC0AAE000F351A /* test-app-main.m */,
+			);
+			name = "Sample Application";
+			sourceTree = "<group>";
+		};
+		B506919A0EEC1613000F351A /* Command Line Tool */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.m */,
+				B50690620EEC04FA000F351A /* ASIWebPageThumbnailGenerator.h */,
+				B50690630EEC04FA000F351A /* ASIWebPageThumbnailGenerator.m */,
+			);
+			name = "Command Line Tool";
+			sourceTree = "<group>";
+		};
+		B5C8951E0EEFE14D001CE72D /* CocoaThumbnailGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B50690800EEC0839000F351A /* ASIWebThumbnailGenerator.h */,
+				B50690810EEC0839000F351A /* ASIWebThumbnailGenerator.m */,
+			);
+			name = CocoaThumbnailGenerator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F740486A8DE00D96B5E /* Standalone Command Line Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "Standalone Command Line Tool" */;
+			buildPhases = (
+				8DD76F760486A8DE00D96B5E /* Sources */,
+				8DD76F780486A8DE00D96B5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Standalone Command Line Tool";
+			productInstallPath = "$(HOME)/bin";
+			productName = MakeThumbnail;
+			productReference = 8DD76F7E0486A8DE00D96B5E /* webthumbnail */;
+			productType = "com.apple.product-type.tool";
+		};
+		B50690770EEC0803000F351A /* Test Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B506907D0EEC0805000F351A /* Build configuration list for PBXNativeTarget "Test Application" */;
+			buildPhases = (
+				B50690740EEC0803000F351A /* Resources */,
+				B50690750EEC0803000F351A /* Sources */,
+				B50690760EEC0803000F351A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Application";
+			productName = "Test Application";
+			productReference = B50690780EEC0803000F351A /* Test Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C895240EEFE1F9001CE72D /* BundledThumbnailGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C8952A0EEFE1F9001CE72D /* Build configuration list for PBXNativeTarget "BundledThumbnailGenerator" */;
+			buildPhases = (
+				B5C895210EEFE1F9001CE72D /* Resources */,
+				B5C895220EEFE1F9001CE72D /* Sources */,
+				B5C895230EEFE1F9001CE72D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BundledThumbnailGenerator;
+			productName = BundledThumbnailGenerator;
+			productReference = B5C895250EEFE1F9001CE72D /* BundledThumbnailGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB924B08733DCA0010E9CD /* Build configuration list for PBXProject "ASIWebThumbnail" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* MakeThumbnail */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F740486A8DE00D96B5E /* Standalone Command Line Tool */,
+				B50690770EEC0803000F351A /* Test Application */,
+				B5C895240EEFE1F9001CE72D /* BundledThumbnailGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50690740EEC0803000F351A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C895950EEFE311001CE72D /* BundledThumbnailGenerator.app in Resources */,
+				B506908A0EEC0A3B000F351A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C895210EEFE1F9001CE72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F760486A8DE00D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F770486A8DE00D96B5E /* main.m in Sources */,
+				B50690640EEC04FA000F351A /* ASIWebPageThumbnailGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50690750EEC0803000F351A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50690820EEC0839000F351A /* ASIWebThumbnailGenerator.m in Sources */,
+				B50690880EEC09D3000F351A /* AppController.m in Sources */,
+				B50690C20EEC0AAE000F351A /* test-app-main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C895220EEFE1F9001CE72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C8952D0EEFE22C001CE72D /* main.m in Sources */,
+				B5C8952E0EEFE234001CE72D /* ASIWebPageThumbnailGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB924808733DCA0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLY_RULES_IN_COPY_FILES = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = webthumbnail.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = webthumbnail;
+			};
+			name = Debug;
+		};
+		1DEB924908733DCA0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLY_RULES_IN_COPY_FILES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = webthumbnail.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = webthumbnail;
+			};
+			name = Release;
+		};
+		1DEB924C08733DCA0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB924D08733DCA0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		B506907B0EEC0804000F351A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test Application-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test Application";
+			};
+			name = Debug;
+		};
+		B506907C0EEC0804000F351A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Test Application-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Test Application";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		B5C895280EEFE1F9001CE72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "BundledThumbnailGenerator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BundledThumbnailGenerator;
+			};
+			name = Debug;
+		};
+		B5C895290EEFE1F9001CE72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "BundledThumbnailGenerator-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BundledThumbnailGenerator;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "Standalone Command Line Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB924808733DCA0010E9CD /* Debug */,
+				1DEB924908733DCA0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB924B08733DCA0010E9CD /* Build configuration list for PBXProject "ASIWebThumbnail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB924C08733DCA0010E9CD /* Debug */,
+				1DEB924D08733DCA0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B506907D0EEC0805000F351A /* Build configuration list for PBXNativeTarget "Test Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B506907B0EEC0804000F351A /* Debug */,
+				B506907C0EEC0804000F351A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C8952A0EEFE1F9001CE72D /* Build configuration list for PBXNativeTarget "BundledThumbnailGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C895280EEFE1F9001CE72D /* Debug */,
+				B5C895290EEFE1F9001CE72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

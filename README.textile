@@ -1,0 +1,6 @@
+ASIWebThumbnail is:
+* A command line tool for Mac OS X that generates thumbnails from web pages "See examples >":http://allseeing-i.com/ASIWebThumbnail/Examples
+* An API to use an embedded version of the tool in your Cocoa applications "Read more >":http://allseeing-i.com/ASIWebThumbnail/API-Documentation
+ASIWebThumbnail uses the "WebKit":http://webkit.org framework built-in Mac OS X to render web pages. As such, it should support any content that WebKit supports, including HTML/XML + CSS, SVG, content rendered by Javascript (Canvas, AJAX, DOM etc), Java, as well as Flash and other plugins.
+
+Documentation is available "here":http://allseeing-i.com/ASIWebThumbnail.
