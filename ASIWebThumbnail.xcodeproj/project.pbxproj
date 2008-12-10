@@ -41,7 +41,6 @@
 		B50690890EEC0A3B000F351A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		B50690C10EEC0AAE000F351A /* test-app-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "test-app-main.m"; sourceTree = "<group>"; };
 		B50692450EEC1EF4000F351A /* webthumbnail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = webthumbnail.plist; sourceTree = "<group>"; };
-		B52DE06C0EEC3FE700586E27 /* GenerateThumbnail.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = GenerateThumbnail.app; sourceTree = "<group>"; };
 		B5C895250EEFE1F9001CE72D /* BundledThumbnailGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BundledThumbnailGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C895270EEFE1F9001CE72D /* BundledThumbnailGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BundledThumbnailGenerator-Info.plist"; sourceTree = "<group>"; };
 		B5C8953C0EEFE282001CE72D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -80,7 +79,6 @@
 		08FB7794FE84155DC02AAC07 /* MakeThumbnail */ = {
 			isa = PBXGroup;
 			children = (
-				B52DE06C0EEC3FE700586E27 /* GenerateThumbnail.app */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				19C28FBDFE9D53C911CA2CBB /* Products */,
