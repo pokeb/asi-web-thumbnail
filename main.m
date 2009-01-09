@@ -159,10 +159,10 @@ int main (int argc, char **argv) {
 	int err = 0;
 	
 	if (badParameters) {
-		CFShow((CFStringRef *)usage);
+		CFShow(usage);
 		
 	} else if (showHelp) {
-		CFShow((CFStringRef *)help);
+		[help writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:NULL];
 	
 	// We got valid arguments, let's attempt to generate the thumbnail
 	} else {
@@ -171,7 +171,7 @@ int main (int argc, char **argv) {
 		err = (!generator || [generator failed]);
 		if (err == 0) {
 			if (printPageTitle) {
-				CFShow((CFStringRef*)[generator pageTitle]);
+				[[generator pageTitle] writeToFile:@"/dev/stdout" atomically:NO encoding:NSUTF8StringEncoding error:NULL];
 			}
 			if (launchThumbnail) {
 				[[NSWorkspace sharedWorkspace] openFile:[generator thumbnailSavePath]];
